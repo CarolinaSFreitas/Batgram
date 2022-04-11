@@ -1,0 +1,208 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    color: #262626;
+}
+
+.search-header{
+    display: flex;
+    box-sizing: border-box;
+    
+    background-color: #FAFAFA;
+    cursor: pointer;
+}
+
+
+
+.input-field{
+    background-color: #EFEFEF;
+    margin-left: 380px;
+    margin-top: 15px;
+    width: 220px;
+    height: 36px;
+    border-radius: 5px;    
+    border: none;
+}
+
+.insta-icon{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 15px;
+    margin-left: 28px;
+    width: 95px;
+    height: 28px;
+    
+}
+
+
+.bat-icon{
+    display: flex;
+    justify-content: left;
+    margin-left: 75px;
+    margin-right: 5px;
+    margin-bottom: 140px;
+
+    margin-top: 60px;
+    border-radius: 400px;
+    width: 149px;
+
+    border: 4.9px solid #6DD539;
+    cursor: pointer;
+}
+
+.profile-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 95px;
+    margin-top: 10px;
+}
+
+.profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 80px;
+    margin-top: 55px;
+   
+}
+
+.user-infos{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.verified-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.second-button{
+    display: flex;
+    margin-left: 100px;
+}
+
+.dm-button{
+    background-color: #FAFAFA;
+    color: #262626;
+    border-radius: 3.8px;
+    border: solid 1px #DBDBDB;
+    width: 130px;
+    height: 30px;  
+    font-weight: 700;
+    
+    cursor: pointer;
+
+    transition: 500ms;
+}
+
+.dm-button:hover{
+    background-color:transparent;
+    color: #787878;
+    
+}
+
+.name-user{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #262626;
+}
+
+.verified-icon{
+    width: 60px;
+    margin-right: 5px;
+}
+
+.button{
+    display: flex;
+    margin-left: 10px;
+}
+
+.follow-button{
+    background-color: #44aae9;
+    color: #ffffff;
+    border-radius: 3.8px;
+    border: 1px;
+    width: 90px;
+    height: 29px;   
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.follow-button:hover{
+    background-color:#4BB3F7;
+    color: #ffffff;
+}
+
+.social-infos{
+    margin-top: 15px;
+    display: flex;
+}
+
+.job{
+    color: #8E8E8E;
+    margin-bottom: 10px;
+}
+
+.bio{
+    margin-bottom: 25px;
+}
+
+.followers{
+    margin-bottom: 75px;
+    color: #787878;
+    font-size: small;
+}
+
+.follow{
+   color: #262626;
+   cursor: pointer;
+   font-weight: 700;
+    transition: 450ms;
+}
+
+.follow:hover{
+    color: #363535f1;
+}
+
+.words-social{
+    margin-right: 40px;
+}
+
+.numbers-social{
+    margin-right: 6px;
+    text-transform:unset;
+    cursor: pointer;
+}
+
+.bat-posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+   padding: 20;
+    
+    border-top: 1px solid #DBDBDB;
+   
+}
+
+
+.post{
+    width: 310px;
+    height: 310px;
+    margin: 12px;
+
+    cursor: pointer;
+}
